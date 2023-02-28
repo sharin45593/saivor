@@ -48,14 +48,18 @@ body, html {
 
 hr {
   margin: auto;
-  height: 108px;
   width: 40%;
-  color: #000101;
 }
 .footer  {
    
     padding: 8px 0;
     text-align: center;
+}
+@media only screen and (min-width: 900px) {
+  .countdown {
+   
+   font-size: 90px;
+  }
 }
 </style>
 </head>
@@ -71,7 +75,7 @@ hr {
   </div>
     <h1 style="font-size:40px">COMING SOON</h1>
     <hr>
-    <p id="demo" style="font-weigth:bold;font-size:90px">April 15 2023 </p>
+    <h1 class="countdown" id="demo">April 15 2023 </h1>
   </div>
   
 </div>
