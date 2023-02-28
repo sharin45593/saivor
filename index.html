@@ -16,7 +16,7 @@ body, html {
 }
 
 .bgimg {
- background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/1.jpg");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/4.jpg");
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -61,27 +61,33 @@ hr {
    font-size: 90px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .countdown {
+   
+   font-size: 30px;
+  }
+}
 </style>
 </head>
 <body>
 
 <div class="bgimg">
-  <div class="topleft">
-     <img src="images/3.png" style="height: 60px; width: 130px;">
-  </div>
+  <!--<div class="topleft">-->
+  <!--   <img src="images/3.png" style="height: 60px; width: 130px;">-->
+  <!--</div>-->
   <div class="middle">
      <div class="hero-text">
     <img src="images/3.png" style="height: 100px; width: 100%;"> 
   </div>
     <h1 style="font-size:40px">COMING SOON</h1>
     <hr>
-    <h1 class="countdown" id="demo">April 15 2023 </h1>
+    <h4 class="countdown" id="demo">April 15 2023 </h1>
   </div>
   
 </div>
  <footer style="background: rgb(32, 30, 30);">
         <div class="text-center text-white">
-           <img src="images/3.png" style="height: 60px; width: 130px;">
+           <img src="images/3.png" style="height: 40px; width: 130px;">
            <div>
 
              <p style="margin-bottom: 0;">&copy; Copyright SAVIOR. All Rights Reserved</p>
